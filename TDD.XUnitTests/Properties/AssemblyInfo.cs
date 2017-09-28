@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("test-driven-development")]
+[assembly: AssemblyTitle("TDD.XUnitTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("test-driven-development")]
+[assembly: AssemblyProduct("TDD.XUnitTests")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6c4da1ac-b505-4ed5-b429-f22a61b41e93")]
+[assembly: Guid("7eb0a814-4ba1-4172-9a62-a65265a5da8a")]
 
 // Version information for an assembly consists of the following four values:
 //
