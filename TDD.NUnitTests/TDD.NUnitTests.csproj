@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TDD.Classes\TDD.Classes.csproj">
-      <Project>{21A44EC0-8E3F-470F-85D5-866CFA9201E4}</Project>
+      <Project>{21a44ec0-8e3f-470f-85d5-866cfa9201e4}</Project>
       <Name>TDD.Classes</Name>
     </ProjectReference>
   </ItemGroup>
