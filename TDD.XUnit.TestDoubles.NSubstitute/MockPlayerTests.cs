@@ -22,7 +22,7 @@ namespace TDD.XUnit.TestDoubles.NSubstitute
             // assert
 
             // Now this is mock
-            mockFizzBuzz.GetValue(one).Received(1);
+            mockFizzBuzz.Received(1).GetValue(one);
         }
     }
 }

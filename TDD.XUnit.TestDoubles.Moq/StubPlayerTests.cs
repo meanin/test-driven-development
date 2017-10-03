@@ -4,7 +4,7 @@ using Xunit;
 
 namespace TDD.XUnit.TestDoubles.Moq
 {
-    public class StabPlayerTests
+    public class StubPlayerTests
     {
         [Fact]
         public void RunRound_ShouldReturnValueFromFizzBuzz()

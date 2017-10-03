@@ -16,7 +16,7 @@ namespace TDD.Classes
             _realFizzBuzz = new FizzBuzz();
         }
 
-        public IPlayer GetWinner()
+        public IEnumerable<PlayerResult> GetSummary()
         {
             var tryThisNumber = 0;
             for (var roundNumber = 0; roundNumber < _roundCount; roundNumber++)
@@ -29,7 +29,11 @@ namespace TDD.Classes
                 }
             }
 
-            return _players.First(p => p.GetScore() == _players.Max(player => player.GetScore()));
+            return _players.Select(p => new PlayerResult
+            {
+                Name = p.Name,
+                Points = p.GetScore()
+            });
         }
     }
 }

@@ -4,7 +4,7 @@ using Xunit;
 
 namespace TDD.XUnit.TestDoubles.NSubstitute
 {
-    class SpyPlayerTests
+    public class SpyPlayerTests
     {
         [Fact]
         public void RunRound_ShouldGetValueFromFizzBuzz()
@@ -23,7 +23,7 @@ namespace TDD.XUnit.TestDoubles.NSubstitute
             // assert
 
             // Now this is mock
-            mockFizzBuzz.GetValue(one).Received(2);
+            mockFizzBuzz.Received(2).GetValue(one);
         }
     }
 }

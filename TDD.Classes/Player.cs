@@ -2,6 +2,8 @@
 {
     public class Player : IPlayer
     {
+        public string Name { get; set; }
+
         private readonly IFizzBuzz _fizzBuzz;
         private int _points;
 
