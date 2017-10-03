@@ -1,4 +1,4 @@
-﻿namespace TDD.Classes
+﻿namespace TDD.FizzBuzz
 {
     public interface IFizzBuzz
     {

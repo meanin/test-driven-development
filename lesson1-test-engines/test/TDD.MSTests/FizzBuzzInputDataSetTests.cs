@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TDD.Classes;
 
 namespace TDD.MSTests
 {
@@ -15,7 +14,7 @@ namespace TDD.MSTests
         {
             // arrange
 
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
 
             // act
 

@@ -1,5 +1,4 @@
-﻿using TDD.Classes;
-using Xunit;
+﻿using Xunit;
 
 namespace TDD.XUnitTests
 {
@@ -14,7 +13,7 @@ namespace TDD.XUnitTests
         {
             // arrange
 
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
 
             // act
 

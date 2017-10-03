@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TDD.Classes;
 
 namespace TDD.MSTests
 {
@@ -11,7 +10,7 @@ namespace TDD.MSTests
         {
             // arrange
 
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
             const int number = 3;
             const string expected = "Fizz";
 
@@ -29,7 +28,7 @@ namespace TDD.MSTests
         {
             // arrange
 
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
             const int number = 5;
             const string expected = "Buzz";
 
@@ -47,7 +46,7 @@ namespace TDD.MSTests
         {
             // arrange
 
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
             const int number = 1;
             const string expected = "1";
 

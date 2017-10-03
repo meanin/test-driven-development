@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using TDD.Classes;
 
 namespace TDD.NUnitTests
 {
@@ -14,7 +13,7 @@ namespace TDD.NUnitTests
         {
             // arrange
 
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
 
             // act
 

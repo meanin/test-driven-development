@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TDD.TestEngines.Classes")]
+[assembly: AssemblyTitle("TDD.Fibonacci")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TDD.TestEngines.Classes")]
+[assembly: AssemblyProduct("TDD.Fibonacci")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a96f418c-b004-4274-9e6f-1ae90cfdc00b")]
+[assembly: Guid("c40eb0fe-cde0-414f-9f7b-1f4094ff243c")]
 
 // Version information for an assembly consists of the following four values:
 //

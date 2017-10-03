@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using TDD.Classes;
 
 namespace TDD.NUnitTests
 {
@@ -10,7 +9,7 @@ namespace TDD.NUnitTests
         {
             // arrange
 
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
             const int number = 3;
             const string expected = "Fizz";
 
@@ -28,7 +27,7 @@ namespace TDD.NUnitTests
         {
             // arrange
 
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
             const int number = 5;
             const string expected = "Buzz";
 
@@ -46,7 +45,7 @@ namespace TDD.NUnitTests
         {
             // arrange
 
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
             const int number = 1;
             const string expected = "1";
 

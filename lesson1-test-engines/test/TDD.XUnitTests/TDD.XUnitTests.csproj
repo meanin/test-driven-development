@@ -60,9 +60,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\TDD.TestEngines.Classes\TDD.Classes.csproj">
-      <Project>{a96f418c-b004-4274-9e6f-1ae90cfdc00b}</Project>
-      <Name>TDD.Classes</Name>
+    <ProjectReference Include="..\..\src\TDD.FizzBuzz\TDD.FizzBuzz.csproj">
+      <Project>{afc5e31f-0e04-42ba-8c5f-3e6cca895f5e}</Project>
+      <Name>TDD.FizzBuzz</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
