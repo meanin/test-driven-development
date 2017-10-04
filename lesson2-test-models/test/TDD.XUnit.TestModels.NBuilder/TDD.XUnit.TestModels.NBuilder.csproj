@@ -62,9 +62,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\TDD.Classes\TDD.Classes.csproj">
-      <Project>{e0e1af93-2841-4d62-b468-8ca9bc73c7cb}</Project>
-      <Name>TDD.Classes</Name>
+    <ProjectReference Include="..\..\src\TDD.Authorization\TDD.Authorization.csproj">
+      <Project>{4093dbb2-cae8-4b10-9c06-29210ce7376e}</Project>
+      <Name>TDD.Authorization</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
