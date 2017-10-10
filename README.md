@@ -29,5 +29,9 @@ Test assertions
 * NFluent
 * Should
 
+Test database
+
+* EntityFramework 6.0
+
 For use only restore nuget packages.
 Every (almost) project provide class to do some exercise.
