@@ -23,13 +23,13 @@ Test doubles:
 * NSubstitute
 * Rhino
 
-Test assertions
+Test assertions:
 
 * FluentAssertions
 * NFluent
 * Should
 
-Test database
+Test database:
 
 * EntityFramework 6.0
 
